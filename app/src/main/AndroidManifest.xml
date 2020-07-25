@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.coronaapp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".homeActivity"></activity>
+        <activity android:name=".dispscore" />
+        <activity android:name=".do_n_dons" />
+        <activity android:name=".symptoms" />
+        <activity android:name=".level_page" />
+        <activity android:name=".level_des" />
+        <activity android:name=".no" />
+        <activity android:name=".yes" />
+        <activity android:name=".question" />
+        <activity android:name=".level1" />
+        <activity android:name=".LEVEL2" />
+        <activity android:name=".LEVEL1" />
+        <activity android:name=".peopleActivity" />
+        <activity android:name=".MainActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".no1" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

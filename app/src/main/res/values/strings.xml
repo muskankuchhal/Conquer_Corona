@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Conquer Corona</string>
+    <string name="Continue">CONTINUE</string>
+    <string name="question1c">Statement</string>
+    <string name="question1w">Statement</string>
+    <string name="correct">You are CORRECT</string>
+    <string name="wrong">You are WRONG</string>
+</resources>
